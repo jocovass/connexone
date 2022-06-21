@@ -1,0 +1,26 @@
+.App {
+    display: flex;
+    gap: 10px;
+}
+
+.App > div {
+    width: 50%;
+    position: relative;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
